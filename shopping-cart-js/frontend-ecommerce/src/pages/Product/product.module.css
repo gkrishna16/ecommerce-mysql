@@ -1,0 +1,30 @@
+.prdBox {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2em;
+}
+
+.prdBox img {
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+}
+.prdDetails > * {
+  margin: 0 0 2em 0;
+}
+
+.prdDetails {
+  padding: 2em;
+}
+
+.flex {
+  display: flex;
+  gap: 8em;
+  margin-top: 2em;
+}
+
+button {
+  border: 2px solid rgb(120, 52, 237);
+  height: 50px;
+  width: 100px;
+}

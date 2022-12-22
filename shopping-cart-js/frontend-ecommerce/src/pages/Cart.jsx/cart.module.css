@@ -1,0 +1,33 @@
+.cartContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+}
+.productBox {
+  width: 50vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-auto-rows: 250px;
+  gap: 2em;
+  border: 1px solid black;
+}
+
+.productBox img {
+  width: 100%;
+  height: 90%;
+}
+
+.cartRight {
+  border: 1px solid black;
+  padding: 2em;
+}
+
+.cartRight button {
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .cartContainer {
+    grid-template-columns: 100%;
+  }
+}

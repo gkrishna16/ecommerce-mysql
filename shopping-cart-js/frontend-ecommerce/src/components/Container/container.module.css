@@ -1,0 +1,24 @@
+.page {
+  max-width: 1000px;
+  margin: 0 auto;
+  border: 8px dashed green;
+  min-height: 100px;
+}
+.layout {
+  border: 8px dashed goldenrod;
+  min-height: 100px;
+}
+
+@media only screen and (min-width: 900px) {
+  .layout {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 1rem;
+  }
+}
+
+main,
+article {
+  min-height: 100px;
+  border: 8px dashed blue;
+}
